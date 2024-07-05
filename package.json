@@ -1,0 +1,14 @@
+{
+  "name": "epic-meal-time",
+  "version": "1.0.0",
+  "description": "A simple Bash + Node.js app to generate healthy snack recipes from the terminal with the 'sancktime' command.",
+  "main": "snacktime.sh",
+  "scripts": {
+    "start": "bash snacktime.sh"
+  },
+  "author": "Yash Sagar Santani",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
