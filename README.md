@@ -1,6 +1,6 @@
 # cli-aqi App
 
-🍽️ 🥗 🥑
+🍽️ 🥩 🥑
 A simple Bash + Node.js app to generate healthy snack recipes without leaving the terminal.
 
 ## Table of Contents
@@ -17,9 +17,9 @@ A simple Bash + Node.js app to generate healthy snack recipes without leaving th
 ## Introduction
 
 - Do you live in the terminal?
-- Do you often get hungry while coding but don't know what to cook?
+- Do you often get hungry while coding but don't know what to throw on the pan?
 - This app aka Bash + Node.js script generates 3 random but healthy snack recipes (Ingredients + Cooking Instructions) for you while ensuring the total calorie count for all dishes is below 1000 KCal.
-- All you need is a simple run of the 'snacktime' command regardless of your woreking driectory (pwd)
+- All you need is a simple run of the 'snacktime' command regardless of your working driectory (pwd)
 
 ## Features
 
@@ -70,6 +70,16 @@ Run the following command to generate 3 random healthy snack recipes with their 
 
 ```bash
 snacktime
+```
+
+### View Generated Recipes
+All recipies generated are also appended to a snacks.txt file at the path - /Users/your-login-name/epicmealtime/snacks.txt
+
+Navigate to and open the snacks.txt file
+
+```bash
+cd ~/epicmealtime
+open snacks.txt
 ```
 
 ## Configuration
